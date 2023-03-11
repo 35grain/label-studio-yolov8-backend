@@ -12,6 +12,8 @@ services:
   server:
     container_name: label-studio-ml
     build: .
+    env_file:
+      - .env
     environment:
       - MODEL_DIR=/data/models
       - RQ_QUEUE_NAME=default
