@@ -1,5 +1,7 @@
-## Quickstart
+## Before using this repository!
+The YOLOv8n model `best.pt` included in this repository is specific to my project, so please replace it with your own trained model unless you also want to detect and classify potatoes (:
 
+## Quickstart
 Build and start Machine Learning backend on `http://localhost:9090`
 
 ```bash
