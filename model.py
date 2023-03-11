@@ -1,11 +1,11 @@
 from label_studio_ml.model import LabelStudioMLBase
-import requests
+import requests, os
 from ultralytics import YOLO
 from PIL import Image
 from io import BytesIO
 
-LS_URL = ""
-LS_API_TOKEN = ""
+LS_URL = os.environ['LABEL_STUDIO_BASEURL']
+LS_API_TOKEN = os.environ['LABEL_STUDIO_API_TOKEN']
 
 class YOLOv8Model(LabelStudioMLBase):
     def __init__(self, **kwargs):
