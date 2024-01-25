@@ -1,5 +1,5 @@
 ## Before using this repository!
-The labels in `model.py` and the YOLOv8n model `best.pt` included in this repository are specific to my project, so please replace them with your own labels and  trained model unless you also want to detect and classify potatoes (:
+The labels in `model.py` are specific to my project, so please replace them with your own labels and add your trained model weights `best.pt` into the same directory with `model.py`. (:
 
 ## Quickstart
 Build and start Machine Learning backend on `http://localhost:9090`
