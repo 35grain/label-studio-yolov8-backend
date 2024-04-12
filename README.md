@@ -1,5 +1,5 @@
 ## Before using this repository!
-The labels in `model.py` are specific to my project, so please replace them with your own labels and add your trained model weights `best.pt` into the same directory with `model.py`. (:
+The labels in `model.py` are specific to my project, so please replace them with your own labels and add your trained model weights `best.pt` into the same directory with `model.py`. Also remember to copy/update the contents of your `.env` file to include the variables defined in `.env.example`. (:
 
 ## Quickstart
 Build and start Machine Learning backend on `http://localhost:9090`
